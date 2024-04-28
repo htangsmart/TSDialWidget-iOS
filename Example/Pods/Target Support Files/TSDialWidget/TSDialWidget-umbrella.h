@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "TSDialWidgetContianer.h"
+#import "TSDialWidgetInfo.h"
 
 FOUNDATION_EXPORT double TSDialWidgetVersionNumber;
 FOUNDATION_EXPORT const unsigned char TSDialWidgetVersionString[];

@@ -9,7 +9,6 @@
 #import "TSDialWidgetContianer.h"
 #import "TSDialWidgetInfo.h"
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface TSDialWidget : NSObject
 
@@ -21,6 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)requestWidgetWithParam:(NSDictionary *)param success:(void(^)(NSDictionary *param))success;
 
 
++ (void)requestWidgetImageWithName:(NSString *)imageName success:(void(^)(UIImage *widgetImage))success;
+
+
++ (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void(^)(NSString *targetWidgetPath))success;
+
 @end
 
-NS_ASSUME_NONNULL_END

@@ -55,7 +55,7 @@
 		4DCD1D1E4BDB904EDFBB97FD39F8CE31 /* Pods-TSDialWidget_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSDialWidget_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		598311CA0A881EAE6558460511B27D8E /* Pods-TSDialWidget_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TSDialWidget_Example"; path = Pods_TSDialWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2477C24AEE032DA36E6AE693DCE4E6 /* TSDialWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSDialWidget-umbrella.h"; sourceTree = "<group>"; };
-		62E9890767461D0EF5EBC1BA082B1DA6 /* TSDialWidget.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSDialWidget.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62E9890767461D0EF5EBC1BA082B1DA6 /* TSDialWidget.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TSDialWidget.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		65C8DB9BB7CE86EB7E346698BEB47FF9 /* Pods-TSDialWidget_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSDialWidget_Tests.modulemap"; sourceTree = "<group>"; };
 		6ABA8045DCD871B2D4F747B13000576B /* Pods-TSDialWidget_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSDialWidget_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,7 +63,7 @@
 		7521D21C6958B0577D008DE20BF1FF35 /* TSDialWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSDialWidget-dummy.m"; sourceTree = "<group>"; };
 		8FCF04BDF6F9F56CD2EEC581D1C3B104 /* Pods-TSDialWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDialWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9755A7A8D34ABB995149D96CEF44505D /* Pods-TSDialWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDialWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB10629A4F0038C1B46EEDDE8200C4F7 /* TSDialWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSDialWidget-Info.plist"; sourceTree = "<group>"; };
 		B0203CF37366AEF8F8ABD256638EDD20 /* TSDialWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDialWidget.release.xcconfig; sourceTree = "<group>"; };
 		C2B01F7F7473ABBFD3D5A76076EB2374 /* Pods-TSDialWidget_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TSDialWidget_Tests"; path = Pods_TSDialWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,9 +75,9 @@
 		E5CEF44F70001003EDD408440EDBAF98 /* Pods-TSDialWidget_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSDialWidget_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E6C6EAE0A9BEBB254D70A79C08A906E9 /* TSDialWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSDialWidget.modulemap; sourceTree = "<group>"; };
 		E85886B36C0A5C5283703AF5BA152C78 /* TSDialWidgetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDialWidgetInfo.h; path = TSDialWidget/Classes/Class/TSDialWidgetInfo.h; sourceTree = "<group>"; };
-		F4753DBF105EDD59A3602188871A09AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4753DBF105EDD59A3602188871A09AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F5FE0D22226254890AA79D015BD07461 /* Pods-TSDialWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDialWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FC6C388BE8BC3EAA56A00E70562BF5A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FC6C388BE8BC3EAA56A00E70562BF5A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FD493EE576908BAC587A6D58EBCB8A00 /* TSDialWidgetContianer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDialWidgetContianer.h; path = TSDialWidget/Classes/Class/TSDialWidgetContianer.h; sourceTree = "<group>"; };
 		FF05B098342114A94401A4578039BF12 /* TSDialWidgetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDialWidgetInfo.m; path = TSDialWidget/Classes/Class/TSDialWidgetInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -578,8 +578,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

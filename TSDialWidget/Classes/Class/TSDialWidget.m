@@ -16,4 +16,20 @@
     }];
 }
 
+
++ (void)requestWidgetImageWithName:(NSString *)imageName success:(void (^)(UIImage *))success{
+    
+    if (!imageName || imageName.length<=0) {success(nil) ;return;}
+    
+    
+    
+}
+
+
++ (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void (^)(NSString *))success{
+    
+    if (!widgetZipName || widgetZipName.length<=0) {success(nil) ;return;}
+
+}
+
 @end

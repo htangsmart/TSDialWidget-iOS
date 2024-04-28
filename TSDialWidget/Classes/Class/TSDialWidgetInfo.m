@@ -1,27 +1,18 @@
 //
-//  TSDialWidgetContianer.m
+//  TSDialWidgetInfo.m
 //  TSDialWidget
 //
 //  Created by 磐石 on 2024/4/28.
 //
 
-#import "TSDialWidgetContianer.h"
+#import "TSDialWidgetInfo.h"
 
-@implementation TSDialWidgetContianer
-
-+ (void)requestWidgetWithParam:(NSDictionary *)param success:(void (^)(NSDictionary * _Nonnull))success{
-    
-    
-    
-    
-    
-}
+@implementation TSDialWidgetInfo
 
 
-
-+ (NSString *)widgetStringWithInfo:(NSDictionary *)jsonMsg{
++ (NSString *)watchSupportDialIdsWithInfo:(NSDictionary *)supportIdInfo{
     
-    NSDictionary *values = [jsonMsg objectForKey:@"values"];
+    NSDictionary *values = [supportIdInfo objectForKey:@"values"];
     if (values && [values isKindOfClass:[NSDictionary class]]) {
         NSArray *widget = [values objectForKey:@"widget"];
         NSMutableArray *idArray = [NSMutableArray new];
@@ -38,6 +29,10 @@
         }
     }
     return nil;
+
 }
+
+
+
 
 @end

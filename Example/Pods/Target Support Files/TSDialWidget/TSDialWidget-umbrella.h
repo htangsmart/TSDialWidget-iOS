@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TSDialWidget.h"
 #import "TSDialWidgetContianer.h"
 #import "TSDialWidgetInfo.h"
 

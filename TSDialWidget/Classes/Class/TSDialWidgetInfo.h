@@ -11,7 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TSDialWidgetInfo : NSObject
 
-+ (NSDictionary *)dialWidgetInfo;
++ (NSString *)watchSupportDialIdsWithInfo:(NSDictionary *)supportIdInfo;
+
 
 @end
 

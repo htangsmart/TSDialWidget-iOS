@@ -1,16 +1,22 @@
 //
-//  TSDialWidgetInfo.m
+//  TSDialWidgetContianer.m
 //  TSDialWidget
 //
 //  Created by 磐石 on 2024/4/28.
 //
 
+#import "TSDialWidgetContianer.h"
 #import "TSDialWidgetInfo.h"
 
-@implementation TSDialWidgetInfo
+@implementation TSDialWidgetContianer
 
 
-+ (NSDictionary *)dialWidgetInfo{
++ (void)requestDeviceSupportWidgetWithIds:(NSString *)idString success:(void (^)(NSDictionary * _Nonnull))success{
+    
+    success([TSDialWidgetContianer allDialWidgets]);
+}
+
++ (NSDictionary *)allDialWidgets{
     
     return @{
         @"errorCode": @(0),
@@ -129,5 +135,9 @@
         
     };
 }
+
+
+
+
 
 @end

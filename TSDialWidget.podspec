@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   # s.resources = ['TSDialWidget/Classes/Resource/**/*']
   
    s.resource_bundles = {
-     'TSDialWidget' => ['TSDialWidget/Assets/*']
+     'TSDialWidget' => ['TSDialWidget/Assets/*.(png,zip)']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -21,7 +21,7 @@
   "source_files": "TSDialWidget/Classes/Class/**/*",
   "resource_bundles": {
     "TSDialWidget": [
-      "TSDialWidget/Assets/*"
+      "TSDialWidget/Assets/*.(png,zip)"
     ]
   }
 }

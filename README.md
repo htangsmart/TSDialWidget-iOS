@@ -1,4 +1,5 @@
 # TSDialWidget
+一个提供手表挂件信息的库
 
 [![CI Status](https://img.shields.io/travis/htangsmart/TSDialWidget.svg?style=flat)](https://travis-ci.org/htangsmart/TSDialWidget)
 [![Version](https://img.shields.io/cocoapods/v/TSDialWidget.svg?style=flat)](https://cocoapods.org/pods/TSDialWidget)

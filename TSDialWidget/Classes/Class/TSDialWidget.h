@@ -17,13 +17,21 @@
  *
  * @param   param 手表的挂件ID，层级信息
  */
-+ (void)requestWidgetWithParam:(NSDictionary *)param success:(void(^)(NSDictionary *param))success;
++ (void)requestWidgetWithParam:(NSDictionary *)param success:(void(^)(NSDictionary *allWidgets))success;
 
+/*
+ * @brief   根据图片路径从本地获取图片
+ *
+ * @param   param 图片路径
+ */
++ (void)requestWidgetImageWithPath:(NSString *)imagePath success:(void (^)(UIImage *))success;
 
-+ (void)requestWidgetImageWithName:(NSString *)imageName success:(void(^)(UIImage *widgetImage))success;
-
-
-+ (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void(^)(NSString *targetWidgetPath))success;
+/*
+ * @brief   获取zip压缩包数据
+ *
+ * @param   param zip路径
+ */
++ (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void (^)(NSData *))success;
 
 @end
 

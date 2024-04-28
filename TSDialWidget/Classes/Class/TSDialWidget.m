@@ -9,13 +9,12 @@
 
 @implementation TSDialWidget
 
-+ (void)requestWidgetWithParam:(NSDictionary *)param success:(void (^)(NSDictionary * _Nonnull))success{
++ (void)requestWidgetWithParam:(NSDictionary *)param success:(void (^)(NSDictionary * allWidgets))success{
     
     [TSDialWidgetContianer requestDeviceSupportWidgetWithIds:[TSDialWidgetInfo watchSupportDialIdsWithInfo:param] success:^(NSDictionary * _Nonnull widgetInfo) {
         success(widgetInfo);
     }];
 }
-
 
 + (void)requestWidgetImageWithPath:(NSString *)imagePath success:(void (^)(UIImage *))success{
     
@@ -25,14 +24,12 @@
     success( [UIImage imageWithContentsOfFile:imgPath]);
 }
 
++ (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void (^)(NSData *))success{
 
-+ (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void (^)(NSString *))success{
-    
     if (!widgetZipName || widgetZipName.length<=0) {success(nil) ;return;}
     NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"DailWidgets" ofType:@"bundle"];
-//    NSString *imgPath= [bundlePath stringByAppendingPathComponent:imageName];
-
-    success(nil);
+    NSString *zipPath= [bundlePath stringByAppendingPathComponent:widgetZipName];
+    success([NSData dataWithContentsOfFile:zipPath]);
 }
 
 @end

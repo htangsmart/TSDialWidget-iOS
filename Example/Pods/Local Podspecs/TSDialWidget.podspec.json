@@ -19,9 +19,5 @@
     "ios": "10.0"
   },
   "source_files": "TSDialWidget/Classes/Class/**/*",
-  "resource_bundles": {
-    "TSDialWidget": [
-      "TSDialWidget/Assets/*.{bundle}"
-    ]
-  }
+  "resources": "TSDialWidget/Assets/TSDialWidget.bundle"
 }

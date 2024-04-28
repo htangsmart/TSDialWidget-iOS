@@ -119,7 +119,6 @@
                 @"name":@"心率",
                 @"sub_item": @[],
                 @"library" :@[
-                    
                     @{
                         @"is_jump": @(1),
                         @"widget_name": @"心率2",

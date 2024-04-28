@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TSDialWidget/Classes/Class/**/*'
 
-  # s.resources = ['TSDialWidget/Classes/Resource/**/*']
+   s.resources = 'TSDialWidget/Assets/TSDialWidget.bundle'
   
-   s.resource_bundles = {
-     'TSDialWidget' => ['TSDialWidget/Assets/*.{bundle}']
-   }
+  # s.resource_bundles = {
+  #   'TSDialWidget' => ['TSDialWidget/Assets/*.{bundle}']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

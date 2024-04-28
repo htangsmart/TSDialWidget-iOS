@@ -31,7 +31,7 @@
  *
  * @param   param zip路径
  */
-+ (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void (^)(NSData *))success;
++ (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void (^)(NSData *widgetZipData))success;
 
 @end
 

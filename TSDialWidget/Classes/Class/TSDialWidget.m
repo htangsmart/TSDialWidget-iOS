@@ -16,7 +16,7 @@
     }];
 }
 
-+ (void)requestWidgetImageWithPath:(NSString *)imagePath success:(void (^)(UIImage *))success{
++ (void)requestWidgetImageWithPath:(NSString *)imagePath success:(void (^)(UIImage *widgetImage))success{
     
     if (!imagePath || imagePath.length<=0) {success(nil) ;return;}
     NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"DailWidgets" ofType:@"bundle"];
@@ -31,5 +31,8 @@
     NSString *zipPath= [bundlePath stringByAppendingPathComponent:widgetZipName];
     success([NSData dataWithContentsOfFile:zipPath]);
 }
+
+
+
 
 @end

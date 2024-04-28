@@ -24,7 +24,7 @@
  *
  * @param   param 图片路径
  */
-+ (void)requestWidgetImageWithPath:(NSString *)imagePath success:(void (^)(UIImage *))success;
++ (void)requestWidgetImageWithPath:(NSString *)imagePath success:(void (^)(UIImage *widgetImage))success;
 
 /*
  * @brief   获取zip压缩包数据

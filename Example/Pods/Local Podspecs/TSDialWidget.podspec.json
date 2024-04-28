@@ -1,0 +1,22 @@
+{
+  "name": "TSDialWidget",
+  "version": "0.1.0",
+  "summary": "A short description of TSDialWidget.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/htangsmart/TSDialWidget",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "htangsmart": "tengzhangte@topstep-tech.com"
+  },
+  "source": {
+    "git": "https://github.com/htangsmart/TSDialWidget.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TSDialWidget/Classes/**/*"
+}

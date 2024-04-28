@@ -1,0 +1,6 @@
+framework module TSDialWidget {
+  umbrella header "TSDialWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TSDialWidget (0.1.0)
+
+DEPENDENCIES:
+  - TSDialWidget (from `../`)
+
+EXTERNAL SOURCES:
+  TSDialWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSDialWidget: 2df8346406a34abfea439608091aa6b5ef99ae36
+
+PODFILE CHECKSUM: 658e413771f00bd51f32c4c2ec4bfba2c39a5405
+
+COCOAPODS: 1.14.3

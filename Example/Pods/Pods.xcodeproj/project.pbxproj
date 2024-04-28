@@ -7,97 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082EDD7284C1FD4545AF7B70D6590DFC /* TSDialWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF494FC13D44FAC5EADD68E8E3BE55B /* TSDialWidget.m */; };
-		0EC187C14B0AB5F20927639DD221DAE0 /* TSDialWidgetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CE8A001F05A5A692A42D6805465651 /* TSDialWidgetInfo.m */; };
+		1B2487B3C93DD48A7F2136CAE6FC626F /* TSDialWidget-TSDialWidget in Resources */ = {isa = PBXBuildFile; fileRef = D11BE09D56B75B7A401EC011441D6A98 /* TSDialWidget-TSDialWidget */; };
 		223AED55BF420D9186C6D09520939A07 /* Pods-TSDialWidget_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A132FAC11602D2832CF9A32155EF6E7 /* Pods-TSDialWidget_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363A32B0CF88B66A911D54C53E076F89 /* TSDialWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A4C362AAE1F67763218E400EB3C7 /* TSDialWidget.m */; };
 		3DA4928BD155C9756AC552564E08F8BF /* Pods-TSDialWidget_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF133A6D4D9BC5040B9C361949A6309 /* Pods-TSDialWidget_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4065BDB0D06A38C916660ACF1883B2B9 /* TSDialWidgetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 675DB4E056B74D9464B844E05E227B72 /* TSDialWidgetInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47AF2C39BAEC1732EDFDBE8F00E4A1FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		52CC315D2BDE4D6D0059EAFB /* AllDailWidgets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52CC315C2BDE4D6D0059EAFB /* AllDailWidgets.bundle */; };
-		5775A22054E3857EB5AFE970E8A7EC6F /* TSDialWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAEC90A4BFEE7990FAD6A7129266D2F /* TSDialWidget-dummy.m */; };
-		B5B48CCFBE13BEAD2A1DC71777993BC5 /* TSDialWidgetContianer.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B195B298084255BD741676DC13846D /* TSDialWidgetContianer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53CD116A067BD294189C110145D94A20 /* TSDialWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6FFC56AE1B3C29F89AA6140DE274ED /* TSDialWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859ABAEFE6B69C9EE7B4209EBC9DED3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9E0FD7A4E2846775D11E85C0B9E67413 /* AllDailWidgets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FA70F465C156EDFDAD9ADA4AB24AD /* AllDailWidgets.bundle */; };
+		A44BB31AA90D0B0E81AE4B7A48358CEE /* TSDialWidgetContianer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB51B78B74A23065ADE281F63D254E61 /* TSDialWidgetContianer.m */; };
+		AF844244524F13AD18EC73E767929358 /* TSDialWidgetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C89C68EFAAF8E9C08CFCDFD9FD39AB /* TSDialWidgetInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8E842BBD3508E644EB037CC8E33E6FF /* Pods-TSDialWidget_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB511BA140785C0C5348950B355D2 /* Pods-TSDialWidget_Tests-dummy.m */; };
 		C6647EB598E90A89B3C0BCC5D20A24E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DFBC1ED483049A88B779CCC004E3AD25 /* TSDialWidgetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C53861BBED807344A50833D98BCFA0A4 /* TSDialWidgetInfo.m */; };
 		E00531836BAA299B4C5E0459F09E56F5 /* Pods-TSDialWidget_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E86938B8241496218B550D5B9EAA807 /* Pods-TSDialWidget_Example-dummy.m */; };
 		E7B534CECF9C6834D782AE53C3EF0D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F0A0D43B39D3E4BAC9984C2A28369EED /* TSDialWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2743CAA8544333E5069233C0407168 /* TSDialWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F857C0405094C188437C3FDA6273995B /* TSDialWidgetContianer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F639F1C8582885000767FC7ACC4A49 /* TSDialWidgetContianer.m */; };
-		FFF0A9E7DB2FB8414D0394FCD9456EFA /* TSDialWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 08056464A6CB1E000EFE4F3D741AE9CF /* TSDialWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65CF8A2A8FE7FB7E3D516A325718141 /* TSDialWidgetContianer.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A5E6E669B38E781869941FEE779279 /* TSDialWidgetContianer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB23F59FF68332A69DF2D50F50B6B89 /* TSDialWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = A55A66E2E87F772E2D2E2A65E0CBBE91 /* TSDialWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB9BE2A79230D71BD89BDB9F393A2253 /* TSDialWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84AB7A83357BB99696EE8E1507D7D9 /* TSDialWidget-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3170BF2CEE801BE65AD2FD5D248A559A /* PBXContainerItemProxy */ = {
+		8826664A4A26EED2A65A918AD85EC764 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 07EF85725DDE77B448F49EA1B3FC0C66;
-			remoteInfo = TSDialWidget;
+			remoteGlobalIDString = 3FDC04F8ECC6411655DD1CD418550C4F;
+			remoteInfo = "TSDialWidget-TSDialWidget";
 		};
-		F379982E46D91EF906D85FD7FFDAB3C9 /* PBXContainerItemProxy */ = {
+		8FC1E3F34AD0B0C88E39083ADBDF86B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A343CF6785D5C30A729545E7600417B;
 			remoteInfo = "Pods-TSDialWidget_Example";
 		};
+		B09C1B06C1F6BA69EED21975E3DE6B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07EF85725DDE77B448F49EA1B3FC0C66;
+			remoteInfo = TSDialWidget;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008A32AC3DA240F5691F90FA163C2B41 /* TSDialWidget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSDialWidget-prefix.pch"; sourceTree = "<group>"; };
-		08056464A6CB1E000EFE4F3D741AE9CF /* TSDialWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSDialWidget.h; sourceTree = "<group>"; };
 		08CAFAB6BFA55C912A68DF2758F1DD2A /* Pods-TSDialWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDialWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		097273D6D32A1CE915A0FE165F1C4CF7 /* TSDialWidget */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSDialWidget; path = TSDialWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13CE8A001F05A5A692A42D6805465651 /* TSDialWidgetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSDialWidgetInfo.m; sourceTree = "<group>"; };
+		194E14EE5015FAB8455DF33EF334BDD9 /* TSDialWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDialWidget.debug.xcconfig; sourceTree = "<group>"; };
 		1A132FAC11602D2832CF9A32155EF6E7 /* Pods-TSDialWidget_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSDialWidget_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2712F55D4DF3044840992B883488D1A1 /* TSDialWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDialWidget.debug.xcconfig; sourceTree = "<group>"; };
+		1A1FA70F465C156EDFDAD9ADA4AB24AD /* AllDailWidgets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AllDailWidgets.bundle; path = TSDialWidget/Assets/AllDailWidgets.bundle; sourceTree = "<group>"; };
+		1D6FFC56AE1B3C29F89AA6140DE274ED /* TSDialWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSDialWidget-umbrella.h"; sourceTree = "<group>"; };
+		2D5E72A8015F5F2FFDB5D04C1960AC5D /* TSDialWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSDialWidget.modulemap; sourceTree = "<group>"; };
 		2E86938B8241496218B550D5B9EAA807 /* Pods-TSDialWidget_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSDialWidget_Example-dummy.m"; sourceTree = "<group>"; };
 		308C58CD970AF790B2473D6215027418 /* Pods-TSDialWidget_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSDialWidget_Tests-Info.plist"; sourceTree = "<group>"; };
 		3D936337B2ECE4E180EF6E0F729CDB27 /* Pods-TSDialWidget_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSDialWidget_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		408B7DC4BA8AC8C9E5867D5ECF20CF62 /* TSDialWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSDialWidget.modulemap; sourceTree = "<group>"; };
 		427FFDFF174933067061F8023A26ED80 /* Pods-TSDialWidget_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSDialWidget_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		42F81FA4D786DBDE04F6F6374B1464F7 /* TSDialWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDialWidget.release.xcconfig; sourceTree = "<group>"; };
-		4D2743CAA8544333E5069233C0407168 /* TSDialWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSDialWidget-umbrella.h"; sourceTree = "<group>"; };
 		4DCD1D1E4BDB904EDFBB97FD39F8CE31 /* Pods-TSDialWidget_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSDialWidget_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		52CC315C2BDE4D6D0059EAFB /* AllDailWidgets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AllDailWidgets.bundle; sourceTree = "<group>"; };
 		598311CA0A881EAE6558460511B27D8E /* Pods-TSDialWidget_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TSDialWidget_Example"; path = Pods_TSDialWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B195B298084255BD741676DC13846D /* TSDialWidgetContianer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSDialWidgetContianer.h; sourceTree = "<group>"; };
+		61764BBA4B35673D84F66D15618D6DC0 /* TSDialWidget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSDialWidget-prefix.pch"; sourceTree = "<group>"; };
+		63C8633978FAC9DCF6F8DC1E02A494BF /* TSDialWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDialWidget.release.xcconfig; sourceTree = "<group>"; };
 		65C8DB9BB7CE86EB7E346698BEB47FF9 /* Pods-TSDialWidget_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSDialWidget_Tests.modulemap"; sourceTree = "<group>"; };
-		675DB4E056B74D9464B844E05E227B72 /* TSDialWidgetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSDialWidgetInfo.h; sourceTree = "<group>"; };
-		67F639F1C8582885000767FC7ACC4A49 /* TSDialWidgetContianer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSDialWidgetContianer.m; sourceTree = "<group>"; };
 		6ABA8045DCD871B2D4F747B13000576B /* Pods-TSDialWidget_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSDialWidget_Example.modulemap"; sourceTree = "<group>"; };
+		70D5DDA931EE5B6AA6BB7AF8CD892359 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7474A4C362AAE1F67763218E400EB3C7 /* TSDialWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDialWidget.m; path = TSDialWidget/Classes/Class/TSDialWidget.m; sourceTree = "<group>"; };
+		87C89C68EFAAF8E9C08CFCDFD9FD39AB /* TSDialWidgetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDialWidgetInfo.h; path = TSDialWidget/Classes/Class/TSDialWidgetInfo.h; sourceTree = "<group>"; };
 		8FCF04BDF6F9F56CD2EEC581D1C3B104 /* Pods-TSDialWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDialWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9755A7A8D34ABB995149D96CEF44505D /* Pods-TSDialWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDialWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABF494FC13D44FAC5EADD68E8E3BE55B /* TSDialWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSDialWidget.m; sourceTree = "<group>"; };
-		B0C0AFE0C6E4CD68F4FD5990B779D8EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BBAEC90A4BFEE7990FAD6A7129266D2F /* TSDialWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSDialWidget-dummy.m"; sourceTree = "<group>"; };
-		BCB60FA44A576BE0D4B386876228BC47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A5E6E669B38E781869941FEE779279 /* TSDialWidgetContianer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDialWidgetContianer.h; path = TSDialWidget/Classes/Class/TSDialWidgetContianer.h; sourceTree = "<group>"; };
+		A55A66E2E87F772E2D2E2A65E0CBBE91 /* TSDialWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDialWidget.h; path = TSDialWidget/Classes/Class/TSDialWidget.h; sourceTree = "<group>"; };
+		AB51B78B74A23065ADE281F63D254E61 /* TSDialWidgetContianer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDialWidgetContianer.m; path = TSDialWidget/Classes/Class/TSDialWidgetContianer.m; sourceTree = "<group>"; };
+		B4B2375D8C2F585E0E361F9089D74665 /* TSDialWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSDialWidget-Info.plist"; sourceTree = "<group>"; };
 		C2B01F7F7473ABBFD3D5A76076EB2374 /* Pods-TSDialWidget_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TSDialWidget_Tests"; path = Pods_TSDialWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6637AEA17619E1FAD04C89329214E21 /* TSDialWidget.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TSDialWidget.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C53861BBED807344A50833D98BCFA0A4 /* TSDialWidgetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDialWidgetInfo.m; path = TSDialWidget/Classes/Class/TSDialWidgetInfo.m; sourceTree = "<group>"; };
 		CBF133A6D4D9BC5040B9C361949A6309 /* Pods-TSDialWidget_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSDialWidget_Example-umbrella.h"; sourceTree = "<group>"; };
 		CF8DB511BA140785C0C5348950B355D2 /* Pods-TSDialWidget_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSDialWidget_Tests-dummy.m"; sourceTree = "<group>"; };
+		D11BE09D56B75B7A401EC011441D6A98 /* TSDialWidget-TSDialWidget */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TSDialWidget-TSDialWidget"; path = TSDialWidget.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B390841E84DCFE420C82CDBD80A24C /* ResourceBundle-TSDialWidget-TSDialWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TSDialWidget-TSDialWidget-Info.plist"; sourceTree = "<group>"; };
+		DA20101137E597037FFDC7478251506C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DD74FC18F420A6E75201042FB8CBF7AB /* Pods-TSDialWidget_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSDialWidget_Example-Info.plist"; sourceTree = "<group>"; };
 		E4AAA47546C159B16AE9789FC946DA72 /* Pods-TSDialWidget_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSDialWidget_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5CEF44F70001003EDD408440EDBAF98 /* Pods-TSDialWidget_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSDialWidget_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EA204F85FF9129F4E4F13EA98BBDEF8E /* TSDialWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSDialWidget-Info.plist"; sourceTree = "<group>"; };
 		F5FE0D22226254890AA79D015BD07461 /* Pods-TSDialWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSDialWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F8CD2F8910369A5B277B2EC52956E321 /* TSDialWidget.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSDialWidget.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF84AB7A83357BB99696EE8E1507D7D9 /* TSDialWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSDialWidget-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B14EF557F0B6754DF2C9D9F5888FF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EDB621DAEFB3655F4D7430C757737F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E7B534CECF9C6834D782AE53C3EF0D70 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59377D2A68D3B74C92C5991C454CC25D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47AF2C39BAEC1732EDFDBE8F00E4A1FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,21 +118,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC7EFE88DB252651309FBB0E92C16785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859ABAEFE6B69C9EE7B4209EBC9DED3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A5382D51BC73D7AF90A0BC0A098686C /* Class */ = {
+		049EF4DFFF84C728AAC18A09B539D5F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				08056464A6CB1E000EFE4F3D741AE9CF /* TSDialWidget.h */,
-				ABF494FC13D44FAC5EADD68E8E3BE55B /* TSDialWidget.m */,
-				61B195B298084255BD741676DC13846D /* TSDialWidgetContianer.h */,
-				67F639F1C8582885000767FC7ACC4A49 /* TSDialWidgetContianer.m */,
-				675DB4E056B74D9464B844E05E227B72 /* TSDialWidgetInfo.h */,
-				13CE8A001F05A5A692A42D6805465651 /* TSDialWidgetInfo.m */,
+				D2B390841E84DCFE420C82CDBD80A24C /* ResourceBundle-TSDialWidget-TSDialWidget-Info.plist */,
+				2D5E72A8015F5F2FFDB5D04C1960AC5D /* TSDialWidget.modulemap */,
+				FF84AB7A83357BB99696EE8E1507D7D9 /* TSDialWidget-dummy.m */,
+				B4B2375D8C2F585E0E361F9089D74665 /* TSDialWidget-Info.plist */,
+				61764BBA4B35673D84F66D15618D6DC0 /* TSDialWidget-prefix.pch */,
+				1D6FFC56AE1B3C29F89AA6140DE274ED /* TSDialWidget-umbrella.h */,
+				194E14EE5015FAB8455DF33EF334BDD9 /* TSDialWidget.debug.xcconfig */,
+				63C8633978FAC9DCF6F8DC1E02A494BF /* TSDialWidget.release.xcconfig */,
 			);
-			name = Class;
-			path = TSDialWidget/Classes/Class;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TSDialWidget";
+			sourceTree = "<group>";
+		};
+		27179BFEC3DE9C022133ED747D5CB659 /* TSDialWidget */ = {
+			isa = PBXGroup;
+			children = (
+				1A1FA70F465C156EDFDAD9ADA4AB24AD /* AllDailWidgets.bundle */,
+				A55A66E2E87F772E2D2E2A65E0CBBE91 /* TSDialWidget.h */,
+				7474A4C362AAE1F67763218E400EB3C7 /* TSDialWidget.m */,
+				A2A5E6E669B38E781869941FEE779279 /* TSDialWidgetContianer.h */,
+				AB51B78B74A23065ADE281F63D254E61 /* TSDialWidgetContianer.m */,
+				87C89C68EFAAF8E9C08CFCDFD9FD39AB /* TSDialWidgetInfo.h */,
+				C53861BBED807344A50833D98BCFA0A4 /* TSDialWidgetInfo.m */,
+				DDB6A41C9082543BEA682EAD3C138005 /* Pod */,
+				049EF4DFFF84C728AAC18A09B539D5F7 /* Support Files */,
+			);
+			name = TSDialWidget;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4BBE336F8C3FFE8FFA8BBB5E277C174D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598311CA0A881EAE6558460511B27D8E /* Pods-TSDialWidget_Example */,
+				C2B01F7F7473ABBFD3D5A76076EB2374 /* Pods-TSDialWidget_Tests */,
+				097273D6D32A1CE915A0FE165F1C4CF7 /* TSDialWidget */,
+				D11BE09D56B75B7A401EC011441D6A98 /* TSDialWidget-TSDialWidget */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -134,16 +181,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		584BC68C47A2E475022F78CB170DD3DE /* TSDialWidget */ = {
+		5E066CF84F85CB1664570E5C2D67AD70 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A5382D51BC73D7AF90A0BC0A098686C /* Class */,
-				F6CEC3FAFC7102E624C5430CFEEAECFE /* Pod */,
-				A2E395FA5A7942F2C0A6A78BBA8E299E /* Resource */,
-				D3A3185863E830DA72EADAB7639218DC /* Support Files */,
+				27179BFEC3DE9C022133ED747D5CB659 /* TSDialWidget */,
 			);
-			name = TSDialWidget;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		703EAABE8AFB388BA3FE0B4F0193F740 /* Pods-TSDialWidget_Tests */ = {
@@ -162,23 +205,6 @@
 			path = "Target Support Files/Pods-TSDialWidget_Tests";
 			sourceTree = "<group>";
 		};
-		96531E5C768902ADC4241DC434C25545 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				584BC68C47A2E475022F78CB170DD3DE /* TSDialWidget */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A2E395FA5A7942F2C0A6A78BBA8E299E /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				52CC315C2BDE4D6D0059EAFB /* AllDailWidgets.bundle */,
-			);
-			name = Resource;
-			path = TSDialWidget/Classes/Resource;
-			sourceTree = "<group>";
-		};
 		AB555E2AE3CE28AFF543FA45C4220834 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,23 +214,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C12245F259BEE914B10C1B56C2395A07 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				598311CA0A881EAE6558460511B27D8E /* Pods-TSDialWidget_Example */,
-				C2B01F7F7473ABBFD3D5A76076EB2374 /* Pods-TSDialWidget_Tests */,
-				097273D6D32A1CE915A0FE165F1C4CF7 /* TSDialWidget */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				96531E5C768902ADC4241DC434C25545 /* Development Pods */,
+				5E066CF84F85CB1664570E5C2D67AD70 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C12245F259BEE914B10C1B56C2395A07 /* Products */,
+				4BBE336F8C3FFE8FFA8BBB5E277C174D /* Products */,
 				AB555E2AE3CE28AFF543FA45C4220834 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -217,19 +233,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D3A3185863E830DA72EADAB7639218DC /* Support Files */ = {
+		DDB6A41C9082543BEA682EAD3C138005 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				408B7DC4BA8AC8C9E5867D5ECF20CF62 /* TSDialWidget.modulemap */,
-				BBAEC90A4BFEE7990FAD6A7129266D2F /* TSDialWidget-dummy.m */,
-				EA204F85FF9129F4E4F13EA98BBDEF8E /* TSDialWidget-Info.plist */,
-				008A32AC3DA240F5691F90FA163C2B41 /* TSDialWidget-prefix.pch */,
-				4D2743CAA8544333E5069233C0407168 /* TSDialWidget-umbrella.h */,
-				2712F55D4DF3044840992B883488D1A1 /* TSDialWidget.debug.xcconfig */,
-				42F81FA4D786DBDE04F6F6374B1464F7 /* TSDialWidget.release.xcconfig */,
+				DA20101137E597037FFDC7478251506C /* LICENSE */,
+				70D5DDA931EE5B6AA6BB7AF8CD892359 /* README.md */,
+				F8CD2F8910369A5B277B2EC52956E321 /* TSDialWidget.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TSDialWidget";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DE868B828BAEA509519935A386EF1BE9 /* Pods-TSDialWidget_Example */ = {
@@ -249,27 +260,17 @@
 			path = "Target Support Files/Pods-TSDialWidget_Example";
 			sourceTree = "<group>";
 		};
-		F6CEC3FAFC7102E624C5430CFEEAECFE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BCB60FA44A576BE0D4B386876228BC47 /* LICENSE */,
-				B0C0AFE0C6E4CD68F4FD5990B779D8EE /* README.md */,
-				C6637AEA17619E1FAD04C89329214E21 /* TSDialWidget.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05FC82CD2E00AC5E27450F6540A78B79 /* Headers */ = {
+		1419B59DC78AC21CBC69AB4B1C6896F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF0A9E7DB2FB8414D0394FCD9456EFA /* TSDialWidget.h in Headers */,
-				F0A0D43B39D3E4BAC9984C2A28369EED /* TSDialWidget-umbrella.h in Headers */,
-				B5B48CCFBE13BEAD2A1DC71777993BC5 /* TSDialWidgetContianer.h in Headers */,
-				4065BDB0D06A38C916660ACF1883B2B9 /* TSDialWidgetInfo.h in Headers */,
+				FAB23F59FF68332A69DF2D50F50B6B89 /* TSDialWidget.h in Headers */,
+				53CD116A067BD294189C110145D94A20 /* TSDialWidget-umbrella.h in Headers */,
+				F65CF8A2A8FE7FB7E3D516A325718141 /* TSDialWidgetContianer.h in Headers */,
+				AF844244524F13AD18EC73E767929358 /* TSDialWidgetInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,21 +295,39 @@
 /* Begin PBXNativeTarget section */
 		07EF85725DDE77B448F49EA1B3FC0C66 /* TSDialWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 469C6074C9DCFAE400D2D867BE19A42E /* Build configuration list for PBXNativeTarget "TSDialWidget" */;
+			buildConfigurationList = 5B4E49B0959CDDE4E1BE4DC26048E76B /* Build configuration list for PBXNativeTarget "TSDialWidget" */;
 			buildPhases = (
-				05FC82CD2E00AC5E27450F6540A78B79 /* Headers */,
-				72AF594896891F98A42EFF6C1672DF76 /* Sources */,
-				59377D2A68D3B74C92C5991C454CC25D /* Frameworks */,
-				8858F10EC1A2CC654E8464A43DE640AD /* Resources */,
+				1419B59DC78AC21CBC69AB4B1C6896F8 /* Headers */,
+				75A1CB1BC5FF05B73793C83AF4521C29 /* Sources */,
+				CC7EFE88DB252651309FBB0E92C16785 /* Frameworks */,
+				8CDD4D670BF9A5714E81222ECC30CA6A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C2B9FB05309C1936A0BD61B1FC0EA465 /* PBXTargetDependency */,
 			);
 			name = TSDialWidget;
 			productName = TSDialWidget;
 			productReference = 097273D6D32A1CE915A0FE165F1C4CF7 /* TSDialWidget */;
 			productType = "com.apple.product-type.framework";
+		};
+		3FDC04F8ECC6411655DD1CD418550C4F /* TSDialWidget-TSDialWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F33ABFA90C14C65BADCE87DCE17F4F9 /* Build configuration list for PBXNativeTarget "TSDialWidget-TSDialWidget" */;
+			buildPhases = (
+				E57C5FCD1A3F3B302B05C71692A52275 /* Sources */,
+				2B14EF557F0B6754DF2C9D9F5888FF41 /* Frameworks */,
+				7D26E13808155940ABCC90AAE5AB9146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSDialWidget-TSDialWidget";
+			productName = TSDialWidget;
+			productReference = D11BE09D56B75B7A401EC011441D6A98 /* TSDialWidget-TSDialWidget */;
+			productType = "com.apple.product-type.bundle";
 		};
 		9A21911639075C23AEC67BA2094BDD04 /* Pods-TSDialWidget_Tests */ = {
 			isa = PBXNativeTarget;
@@ -322,7 +341,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5A645CE3931A58CE2FA86583049719C0 /* PBXTargetDependency */,
+				AA55FA56BA2C0455B6A581168A34C0AA /* PBXTargetDependency */,
 			);
 			name = "Pods-TSDialWidget_Tests";
 			productName = Pods_TSDialWidget_Tests;
@@ -341,7 +360,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0FBB99712BC419B17EECAFD2D7C20B6F /* PBXTargetDependency */,
+				938287798654DD4B65D3031A8D0E0800 /* PBXTargetDependency */,
 			);
 			name = "Pods-TSDialWidget_Example";
 			productName = Pods_TSDialWidget_Example;
@@ -366,13 +385,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C12245F259BEE914B10C1B56C2395A07 /* Products */;
+			productRefGroup = 4BBE336F8C3FFE8FFA8BBB5E277C174D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9A343CF6785D5C30A729545E7600417B /* Pods-TSDialWidget_Example */,
 				9A21911639075C23AEC67BA2094BDD04 /* Pods-TSDialWidget_Tests */,
 				07EF85725DDE77B448F49EA1B3FC0C66 /* TSDialWidget */,
+				3FDC04F8ECC6411655DD1CD418550C4F /* TSDialWidget-TSDialWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -392,11 +412,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8858F10EC1A2CC654E8464A43DE640AD /* Resources */ = {
+		7D26E13808155940ABCC90AAE5AB9146 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CC315D2BDE4D6D0059EAFB /* AllDailWidgets.bundle in Resources */,
+				9E0FD7A4E2846775D11E85C0B9E67413 /* AllDailWidgets.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDD4D670BF9A5714E81222ECC30CA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2487B3C93DD48A7F2136CAE6FC626F /* TSDialWidget-TSDialWidget in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,35 +447,128 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72AF594896891F98A42EFF6C1672DF76 /* Sources */ = {
+		75A1CB1BC5FF05B73793C83AF4521C29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				082EDD7284C1FD4545AF7B70D6590DFC /* TSDialWidget.m in Sources */,
-				5775A22054E3857EB5AFE970E8A7EC6F /* TSDialWidget-dummy.m in Sources */,
-				F857C0405094C188437C3FDA6273995B /* TSDialWidgetContianer.m in Sources */,
-				0EC187C14B0AB5F20927639DD221DAE0 /* TSDialWidgetInfo.m in Sources */,
+				363A32B0CF88B66A911D54C53E076F89 /* TSDialWidget.m in Sources */,
+				FB9BE2A79230D71BD89BDB9F393A2253 /* TSDialWidget-dummy.m in Sources */,
+				A44BB31AA90D0B0E81AE4B7A48358CEE /* TSDialWidgetContianer.m in Sources */,
+				DFBC1ED483049A88B779CCC004E3AD25 /* TSDialWidgetInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57C5FCD1A3F3B302B05C71692A52275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FBB99712BC419B17EECAFD2D7C20B6F /* PBXTargetDependency */ = {
+		938287798654DD4B65D3031A8D0E0800 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSDialWidget;
 			target = 07EF85725DDE77B448F49EA1B3FC0C66 /* TSDialWidget */;
-			targetProxy = 3170BF2CEE801BE65AD2FD5D248A559A /* PBXContainerItemProxy */;
+			targetProxy = B09C1B06C1F6BA69EED21975E3DE6B82 /* PBXContainerItemProxy */;
 		};
-		5A645CE3931A58CE2FA86583049719C0 /* PBXTargetDependency */ = {
+		AA55FA56BA2C0455B6A581168A34C0AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TSDialWidget_Example";
 			target = 9A343CF6785D5C30A729545E7600417B /* Pods-TSDialWidget_Example */;
-			targetProxy = F379982E46D91EF906D85FD7FFDAB3C9 /* PBXContainerItemProxy */;
+			targetProxy = 8FC1E3F34AD0B0C88E39083ADBDF86B3 /* PBXContainerItemProxy */;
+		};
+		C2B9FB05309C1936A0BD61B1FC0EA465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TSDialWidget-TSDialWidget";
+			target = 3FDC04F8ECC6411655DD1CD418550C4F /* TSDialWidget-TSDialWidget */;
+			targetProxy = 8826664A4A26EED2A65A918AD85EC764 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		177176BE4C7F51493AF3D11099B2DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194E14EE5015FAB8455DF33EF334BDD9 /* TSDialWidget.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSDialWidget/TSDialWidget-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSDialWidget/TSDialWidget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSDialWidget/TSDialWidget.modulemap";
+				PRODUCT_MODULE_NAME = TSDialWidget;
+				PRODUCT_NAME = TSDialWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2732D67297B2DAF777AE23BFA2825694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C8633978FAC9DCF6F8DC1E02A494BF /* TSDialWidget.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TSDialWidget";
+				IBSC_MODULE = TSDialWidget;
+				INFOPLIST_FILE = "Target Support Files/TSDialWidget/ResourceBundle-TSDialWidget-TSDialWidget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = TSDialWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		41692E90F993139F9FDB8EBE17BE5B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C8633978FAC9DCF6F8DC1E02A494BF /* TSDialWidget.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSDialWidget/TSDialWidget-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSDialWidget/TSDialWidget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSDialWidget/TSDialWidget.modulemap";
+				PRODUCT_MODULE_NAME = TSDialWidget;
+				PRODUCT_NAME = TSDialWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		68A196C69E6F2A7518C95D349B3152A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F5FE0D22226254890AA79D015BD07461 /* Pods-TSDialWidget_Example.release.xcconfig */;
@@ -475,38 +596,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6BD5CAE5911FB74B9E953DB9E525FFBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42F81FA4D786DBDE04F6F6374B1464F7 /* TSDialWidget.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TSDialWidget/TSDialWidget-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TSDialWidget/TSDialWidget-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TSDialWidget/TSDialWidget.modulemap";
-				PRODUCT_MODULE_NAME = TSDialWidget;
-				PRODUCT_NAME = TSDialWidget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -569,40 +658,27 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		ADD5974A9ABD82CC7AE8157867F36881 /* Debug */ = {
+		BE92CD8377E6BEE5886BAFD64983E227 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2712F55D4DF3044840992B883488D1A1 /* TSDialWidget.debug.xcconfig */;
+			baseConfigurationReference = 194E14EE5015FAB8455DF33EF334BDD9 /* TSDialWidget.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TSDialWidget/TSDialWidget-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TSDialWidget/TSDialWidget-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TSDialWidget";
+				IBSC_MODULE = TSDialWidget;
+				INFOPLIST_FILE = "Target Support Files/TSDialWidget/ResourceBundle-TSDialWidget-TSDialWidget-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TSDialWidget/TSDialWidget.modulemap";
-				PRODUCT_MODULE_NAME = TSDialWidget;
 				PRODUCT_NAME = TSDialWidget;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -784,20 +860,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		469C6074C9DCFAE400D2D867BE19A42E /* Build configuration list for PBXNativeTarget "TSDialWidget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADD5974A9ABD82CC7AE8157867F36881 /* Debug */,
-				6BD5CAE5911FB74B9E953DB9E525FFBF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4E49B0959CDDE4E1BE4DC26048E76B /* Build configuration list for PBXNativeTarget "TSDialWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177176BE4C7F51493AF3D11099B2DB3D /* Debug */,
+				41692E90F993139F9FDB8EBE17BE5B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F33ABFA90C14C65BADCE87DCE17F4F9 /* Build configuration list for PBXNativeTarget "TSDialWidget-TSDialWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE92CD8377E6BEE5886BAFD64983E227 /* Debug */,
+				2732D67297B2DAF777AE23BFA2825694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

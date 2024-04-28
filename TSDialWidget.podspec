@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TSDialWidget/Classes/**/*'
+  s.source_files = 'TSDialWidget/Classes/Class/**/*'
 
-  s.resources = ['TSDialWidget/Classes/Resource/**/*']
+  # s.resources = ['TSDialWidget/Classes/Resource/**/*']
   
-  # s.resource_bundles = {
-  #   'TSDialWidget' => ['TSDialWidget/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'TSDialWidget' => ['TSDialWidget/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

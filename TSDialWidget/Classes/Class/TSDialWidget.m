@@ -16,12 +16,17 @@
     }];
 }
 
-+ (void)requestWidgetImageWithPath:(NSString *)imagePath success:(void (^)(UIImage *widgetImage))success{
++ (void)requestWidgetImageWithName:(NSString *)imageName success:(void (^)(UIImage *widgetImage))success{
     
     if (!imagePath || imagePath.length<=0) {success(nil) ;return;}
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"AllDailWidgets" ofType:@"bundle"];
-    NSString *imgPath = [[NSBundle bundleWithPath:bundlePath] pathForResource:bundlePath ofType:@"png" inDirectory:@""];
-    success( [UIImage imageWithContentsOfFile:imgPath]);
+    
+    NSBundle *bundless = [NSBundle bundleForClass:[self class]];
+    NSURL *bundleURL = [bundless URLForResource:@"TSDialWidget" withExtension:@"bundle"];
+    NSBundle *resourceBundle = [NSBundle bundleWithURL: bundleURL];
+    UIImage *image = [UIImage imageNamed:imageName inBundle:resourceBundle withConfiguration:nil];
+
+    
+    success(image);
 }
 
 + (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void (^)(NSData *))success{

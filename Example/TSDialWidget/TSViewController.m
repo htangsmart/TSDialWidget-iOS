@@ -7,7 +7,7 @@
 //
 
 #import "TSViewController.h"
-
+#import "TSDialWidget.h"
 @interface TSViewController ()
 
 @end
@@ -17,6 +17,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIImageView *imageview = [[UIImageView alloc]init];
+    
+    imageview.frame = CGRectMake(100, 100, 100, 100);
+    
+    [self.view addSubview:imageview];
+    
+    [TSDialWidget requestWidgetImageWithPath:@"40450dc9bf040b01ce41a04166ab0da1.png" success:^(UIImage *widgetImage) {
+        
+        imageview.image = widgetImage;
+        
+        NSLog(@"image is %@",widgetImage);
+        
+    }];
+
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

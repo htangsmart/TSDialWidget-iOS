@@ -13,9 +13,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    [TSDialWidget requestWidgetZipWithName:@"name" success:^(NSData *) {
-        
-    }];
     
     // Override point for customization after application launch.
     return YES;

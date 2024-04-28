@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'TSDialWidget/Classes/**/*'
+
+  s.resources = ['TSDialWidget/Classes/Resource/**/*']
   
   # s.resource_bundles = {
   #   'TSDialWidget' => ['TSDialWidget/Assets/*.png']

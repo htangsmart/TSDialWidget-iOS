@@ -19,12 +19,14 @@
  */
 + (void)requestWidgetWithParam:(NSDictionary *)param success:(void(^)(NSDictionary *allWidgets))success;
 
+
 /*
  * @brief   根据图片路径从本地获取图片
  *
  * @param   param 图片路径
  */
 + (void)requestWidgetImageWithName:(NSString *)imageName success:(void (^)(UIImage *widgetImage))success;
+
 
 /*
  * @brief   获取zip压缩包数据

@@ -19,27 +19,22 @@
 + (void)requestWidgetImageWithName:(NSString *)imageName success:(void (^)(UIImage *widgetImage))success{
     
     if (!imageName || imageName.length<=0) {success(nil) ;return;}
-    NSBundle *bundless = [NSBundle bundleForClass:[self class]];
-    NSURL *bundleURL = [bundless URLForResource:@"TSDialWidget" withExtension:@"bundle"];
-    NSBundle *resourceBundle = [NSBundle bundleWithURL: bundleURL];
-
-    UIImage *image = [UIImage imageNamed:imageName inBundle:resourceBundle compatibleWithTraitCollection:nil];
-    success(image);
+    success([UIImage imageNamed:imageName inBundle:[TSDialWidget dialWidgetBundle] compatibleWithTraitCollection:nil]);
 }
 
 + (void)requestWidgetZipWithName:(NSString *)widgetZipName success:(void (^)(NSData *))success{
-
-    if (!widgetZipName || widgetZipName.length<=0) {success(nil) ;return;}
     
+    if (!widgetZipName || widgetZipName.length<=0) {success(nil) ;return;}
+    success([NSData dataWithContentsOfFile:[[[TSDialWidget dialWidgetBundle] resourcePath] stringByAppendingPathComponent:widgetZipName]]);
+}
+
+
++ (NSBundle *)dialWidgetBundle{
     NSBundle *bundless = [NSBundle bundleForClass:[self class]];
     NSURL *bundleURL = [bundless URLForResource:@"TSDialWidget" withExtension:@"bundle"];
     NSBundle *resourceBundle = [NSBundle bundleWithURL: bundleURL];
-
-    NSData *data = [NSData dataWithContentsOfFile:[[resourceBundle resourcePath] stringByAppendingPathComponent:widgetZipName]];
-
-    success(data);
+    return resourceBundle;
 }
-
 
 
 

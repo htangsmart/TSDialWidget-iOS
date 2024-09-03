@@ -13,16 +13,16 @@
 
 +(void)requestDeviceSupportWidgetWithIds:(NSString*)idString success:(void(^)(NSDictionary*_Nonnull))success{
     
-    success([TSDialWidgetContianer allDialWidgets]);
+    success([TSDialWidgetContianer newDialWidgets]);
 }
 
 
-- (NSDictionary *)newDialWidgets{
++ (NSDictionary *)newDialWidgets{
     
     return  @{
         @"errorCode":@(0),
         @"errorMsg":@"success",
-        @"time":@"1725329966",
+        @"time":@([[NSDate date]timeIntervalSince1970]),
         @"data":@[
             @{
                 @"name":@"时间",@"sub_item":@[

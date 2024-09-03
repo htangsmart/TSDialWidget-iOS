@@ -19,17 +19,17 @@
     [super viewDidLoad];
     
     UIImageView *imageview = [[UIImageView alloc]init];
-    
+    imageview.backgroundColor = [UIColor grayColor];
     imageview.frame = CGRectMake(100, 100, 100, 100);
     
     [self.view addSubview:imageview];
     
-    [TSDialWidget requestWidgetImageWithName:@"5a6c2beb2547a942129a73c027a90464.png" success:^(UIImage *widgetImage) {
+    [TSDialWidget requestWidgetImageWithName:@"291bac9d02a52019c83b97d298f491f7.png" success:^(UIImage *widgetImage) {
         imageview.image = widgetImage;
     }];
     
-    [TSDialWidget requestWidgetZipWithName:@"1f1f3addddad26232b45fc3243523fe8.zip" success:^(NSData *widgetZipData) {
-//        NSLog(@"data is %@",widgetZipData);
+    [TSDialWidget requestWidgetZipWithName:@"cc0a816ef0e4b15f1e41c37fe7dfebdb.zip" success:^(NSData *widgetZipData) {
+        NSLog(@"data is %@",widgetZipData);
     }];
 
     // Do any additional setup after loading the view, typically from a nib.
